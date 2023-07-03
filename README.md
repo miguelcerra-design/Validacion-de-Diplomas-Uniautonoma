@@ -5,19 +5,19 @@
 - [Ver sitio oficial](https://certificados.uac.edu.co/diplomas/)
 - [Ver página de validación manual - Github Page](https://miguelcerra-design.github.io/Validacion-de-Diplomas-Uniautonoma/)
 - [Ver página de diploma certificado - Github Page](https://miguelcerra-design.github.io/Validacion-de-Diplomas-Uniautonoma/documento_encontrado)
-- [Ver página de diploma invalido - Github Page](https://miguelcerra-design.github.io/Validacion-de-Diplomas-Uniautonoma/documento_no_encontrado)
+- [Ver página de diploma inválido - Github Page](https://miguelcerra-design.github.io/Validacion-de-Diplomas-Uniautonoma/documento_no_encontrado)
 - [Ver página no encontrada - Github Page](https://miguelcerra-design.github.io/Validacion-de-Diplomas-Uniautonoma/404)
 
 
 ## Descripción 📑
 
-Este sitio web se ha desarrollado como parte de un sistema diseñado para automatizar el proceso de certificación de la legitimidad de los diplomas emitidos por la Universidad Autónoma del Caribe. Esta certificación se lleva a cabo mediante la escaneo de un código QR o la introducción manual de los números de registro.
+Este sitio web se ha desarrollado como parte de un sistema diseñado para automatizar el proceso de certificación de la legitimidad de los diplomas emitidos por la Universidad Autónoma del Caribe. Esta certificación se lleva a cabo mediante el escaneo de un código QR o la introducción manual de los números de registro.
 
-Nora: Estoy preparando en Behance un espacio donde podrá observer el proceso de diseño de este sitio web.
+Nota: Estoy preparando en Behance un espacio donde podrá observar el proceso de diseño de este sitio web.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻 
 
-Quise implementar un menu estilo modal que se despliega al presionar en la opción de "Otros metodos de verificación", es quí donde un compañero desarrollador, Daniel Yepes, me ayudo explicando como se realiza el despliegue mediante JavaScrip. Ayudandome a implementarlo para darle la funcionalidad correcta. Normalmente he resuelto este tipo de interacción usando CSS, pero en esta ocación decidí resolverlo con ayuda, para ir perdinedo el temor de usar JavaScript.
+Quise implementar un menú estilo modal que se despliega al presionar en la opción de "Otros métodos de verificación", es aquí donde un compañero desarrollador, Daniel Yepes, me ayudo explicando como se realiza el despliegue mediante JavaScript. Ayudándome a implementarlo para darle la funcionalidad correcta. Normalmente he resuelto este tipo de interacción usando CSS, pero en esta ocasión decidí resolverlo con ayuda, para ir perdiendo el temor de usar JavaScript.
 
 ## Tecnologías 🛠
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
