@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diplomas - Validación manual</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="./js/index.js" defer></script>
+
+</head>
+
+<body class="body">
+
+    <!-- Header -->
+    <header class="header">
+
+        <!-- logo -->
+        <a href="#" class="header__logo">
+            <figure class="header__figure">
+                <img src="./resource/pics/logo-full.svg" alt="Logo de certificados"
+                    class="header__img header__img--none">
+                <img src="./resource/pics/logo-emblema.svg" alt="Logo de certificados" class="header__img--mb">
+            </figure>
+
+        </a>
+
+        <!-- navegation -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item ">
+                    <a id="modalMenu" href="#" class="nav__link ">Otros canales de verificación
+                        <figure class="nav__icon--sm "><img id="iconList" src="./resource/icons/linear/arrowdown2.svg"
+                                alt="Icono flecha" class="nav__img">
+                        </figure>
+                    </a>
+
+                    <a id="modalMenu2" href="#" class="nav__icon nav__item--none"><img
+                            src="./resource/icons/fill/more.svg" alt="Más opcines" class="nav__img"></a>
+
+                    <!-- popup menu -->
+                    <ul id="modal" class="modal menu__second">
+                        <li class="menu__item">
+                            <figure class="menu__figure"> <img src="./resource/icons/linear/email.svg" alt=" Iconos"
+                                    class="menu__img"> </figure> <a href="mailto:secretaria.registro@uac.edu.co"
+                                class="menu__link">secretaria.registro@uac.edu.co</a>
+                        </li>
+                        <li class="menu__item">
+                            <figure class="menu__figure"> <img src="./resource/icons/linear/phone.svg" alt=" Iconos"
+                                    class="menu__img"> </figure> <a href="tel:+57 (605) 3853400" class="menu__link">+57
+                                (605) 3853400</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main main--manual ">
+        <section class="texts ">
+            <h2 class="title--h2">Legitimidad de
+                diplomas Uniautónoma</h1>
+
+                <div class="parragraphs">
+                    <p class="parragraph">Si necesita comprobar la autenticidad de un documento expedido por la
+                        Universidad Autónoma del Caribe, puede hacerlo llenando los campos solicitados en nuestro
+                        sistema de verificación en línea.</p>
+
+                    <p class="parragraph">El sistema verificará la validez del documento y le proporcionará una
+                        confirmación en tiempo real.</p>
+                </div>
+
+                <div class="tutorial">
+
+                    <figure class="tutorial__figure">
+                        <img src="./resource/icons/fill/youtube.svg" alt="Icono de youtube" class="tutorial__img">
+                    </figure>
+
+                    <p class="parragraph"> <span class="tutorial__span">Video tutorial</span>Cómo validar manualmente
+                    </p>
+
+                </div>
+        </section>
+
+        <form action="" class="form">
+
+
+            <label for="libro" class="form__label">
+                <span class="form__span"> Número de libro </span>
+                <input type="number" name="" id="libro" placeholder="14" class="form__input">
+            </label>
+
+
+            <label for="folio" class="form__label">
+                <span class="form__span">Número de folio </span>
+                <input type="number" name="" id="folio" placeholder="456" class="form__input">
+            </label>
+
+
+            <label for="diploma" class="form__label">
+                <span class="form__span"> Número de registro</span>
+                <input type="number" name="" id="diploma" placeholder="4569" class="form__input">
+            </label>
+
+            <input type="submit" value="Validar documento" class="button button--primary">
+        </form>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__left">
+            <a href="" class="footer__button">Soporte técnico
+                <figure class="footer__figure">
+                    <img src="./resource/icons/fill/whatsapp.svg" alt="Icono WhatsApp" class="footer__img">
+                </figure>
+            </a>
+            <p class="parragraph">Conozca el
+                <a href="./politicas-de-privacidad/index.html" class="footer__link">Tratamiento de datos</a> y los
+                <a href="./terminos-y-condiciones/index.html" class="footer__link">Terminos y condiciones</a>.
+            </p>
+        </div>
+        <div class="footer_rigth">
+            <a href="https://www.uac.edu.co" class="footer__button">
+                <figure class="footer__figure--emblem">
+                    <img src="./resource/pics/escudo.svg" alt="Escudo Universidad Autónoma del caribe"
+                        class="footer__img">
+                </figure>
+                <span class="parragraph">Universidad Autónoma del Caribe</span>
+            </a>
+            <span class="parragraph">Copyright © 2023</span>
+
+        </div>
+    </footer>
+</body>
+
+</html>
