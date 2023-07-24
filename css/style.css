@@ -445,7 +445,7 @@
     color: var(--secundary);
 }
 
-.footer_rigth {
+.footer__rigth {
     display: inherit;
     flex-flow: row wrap;
     align-items: center;
